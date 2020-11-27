@@ -310,7 +310,7 @@ footer{
 }
 
 #name_id, #email_id, #phone_id, #message_id{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 fieldset{
@@ -329,6 +329,8 @@ fieldset{
 
 
 }
+
+
 
 
 
@@ -657,13 +659,15 @@ footer{
     #nav_area {
     padding-top: 5px;
     padding-bottom: 5px;
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 500px 1fr;
     background-color: white;
     grid-column: 1 / 4;
     grid-row: 1;
     z-index: 1;
 }
+    nav{
+    }
 
 
 
@@ -679,7 +683,7 @@ h2{
 
 
 #logo {
-    grid-column-start: 1;
+    padding-left: 10px;
    
     font-size: 30px;
 }
@@ -721,6 +725,7 @@ h2{
     padding-right: 30px;
     background-color: white;
     border-color: transparent;
+    font-size: 20px;
 }
 
 #contact_right div a {
@@ -780,7 +785,7 @@ h2{
     
 }
 #top_services{
-    padding-left: 60px;
+    padding-left: 30px;
     grid-column: 2;
     
     grid-template-columns: 1fr;
@@ -1134,7 +1139,8 @@ footer{
     
 }
     #top_contact{
-        padding: 0;
+        padding-top: 0;
+       
     }
     
     #top_area_blog{
